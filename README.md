@@ -46,7 +46,7 @@
 
 ​		:three: 压力测试 （P329）
 
-> 参考：《Linux 高性能服务器编程》
+> 参考： **《Linux 高性能服务器编程》**
 >
 > 笔记：
 >
@@ -1237,6 +1237,16 @@ else if (events[i].events & EPOLLOUT) {
 }
 ```
 
+基本流程图：(图太大了，分成三个)
+
+![](Linux高性能服务器编程examples/flowchart1.png)
+
+![](Linux高性能服务器编程examples/flowchart2.png)
+
+![](Linux高性能服务器编程examples/flowchart3.png)
+
+> 总流程图见最后，图片源见仓库图片文件夹。
+
 ----
 
 ### 7.3 压力测试
@@ -1362,4 +1372,10 @@ make cleanE
 ```
 
 > 详细代码见仓库 :house_with_garden: : [Linux_Server_Programming_emamples](https://github.com/czGitAccount/Linux_Server_Programming_emamples)
+
+
+
+项目流程 **总图** ： :star:
+
+![](Linux高性能服务器编程examples/WebSrv1_flowchart.png)
 
